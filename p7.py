@@ -7,8 +7,7 @@ def palindrome(string):
         return "Not Palindrome"
 
 if __name__ == "__main__":
-
-    string = input(sys.argv[1])
+    string = sys.argv[1]
 
     result = palindrome(string)
     print(result)
