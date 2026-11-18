@@ -8,7 +8,7 @@ def palindrome(string):
 
 if __name__ == "__main__":
 
-    string = input("Enter a string:")
+    string = input(sys.argv[1])
 
     result = palindrome(string)
     print(result)
